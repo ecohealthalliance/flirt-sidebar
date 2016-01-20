@@ -43,6 +43,7 @@
 }
 .sidebar-tabs.right {
   float: left;
+  background: linear-gradient(to right, rgba(255,0,0,0) 75% , #496c8a 25%);
 }
   .sidebar-tabs > li {
     width: 100%;

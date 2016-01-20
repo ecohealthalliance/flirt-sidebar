@@ -8,6 +8,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
-  api.addFiles('js/leaflet-sidebar.min.js', 'client');
+  api.addFiles('js/leaflet-sidebar.js', 'client');
   api.addFiles('css/leaflet-sidebar.css', 'client');
 });
