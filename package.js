@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'dit:sidebar-v2',
+  name: 'grits:flirt-sidebar',
   version: '0.0.1',
-  summary: 'Bundled version of sidebar-v2 for meteor',
-  git: 'https://github.com/dit/sidebar-v2',
+  summary: 'Bundled revision of sidebar-v2 for meteor',
+  git: 'https://github.com/ecohealthalliance/flirt-sidebar',
   documentation: 'README.md'
 });
 
