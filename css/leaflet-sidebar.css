@@ -13,6 +13,27 @@
     .sidebarRight {
       transition: width 500ms; } }
 
+.sidebarRightFooter {
+  height: 9%;
+  background-color: lightgray;
+}
+
+.exportData {
+  margin-top: -15px;
+}
+
+.downloadIcon {
+  font-size: x-large;
+  padding-top: 7px;
+  margin-top: 10px;
+  color: gray;
+}
+
+.export {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
 .sidebar {
   position: absolute;
   left: 0;
