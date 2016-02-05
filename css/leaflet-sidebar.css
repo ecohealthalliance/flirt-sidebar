@@ -39,7 +39,7 @@
   left: 0;
   top: 0;
   bottom: 0;
-  width: 460px;
+  width: 360px;
   overflow: hidden;
   z-index: 2000;
   transition: width 500ms;}
