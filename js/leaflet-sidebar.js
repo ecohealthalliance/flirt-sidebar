@@ -133,7 +133,7 @@ L.Control.Sidebar = L.Control.extend({
           L.DomUtil.removeClass(this, 'active');
           L.DomUtil.addClass(this.firstChild.firstChild, 'fa-chevron-circle-left');
         }
-      } else if (this.id === "sidebar-flightData-tab"){
+      } else if (this.id === "sidebar-table-tab"){
         if (L.DomUtil.hasClass(this, 'active')){
             this._sidebar.close();
             L.DomUtil.removeClass(this.firstChild.firstChild, 'fa-angle-double-right');
@@ -145,7 +145,7 @@ L.Control.Sidebar = L.Control.extend({
         }
       } else {
           this._sidebar.open(this.firstChild.hash.slice(1));
-          if(this.id !== "sidebar-flightData-tab"){
+          if(this.id !== "sidebar-table-tab"){
             var colLI = this.parentElement.children.namedItem("sidebar-collapse-tab");
             L.DomUtil.removeClass(colLI.firstChild.firstChild, 'fa-chevron-circle-right');
             L.DomUtil.addClass(colLI.firstChild.firstChild, 'fa-chevron-circle-left');
