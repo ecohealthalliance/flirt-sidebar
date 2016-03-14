@@ -122,6 +122,7 @@ L.Control.Sidebar = L.Control.extend({
     },
 
     _onClick: function(e) {
+      e.preventDefault();
       if (this.id === "sidebar-collapse-tab"){
         if (L.DomUtil.hasClass(this.firstChild.firstChild, 'fa-chevron-circle-left')){
           this._sidebar.close();
@@ -152,7 +153,6 @@ L.Control.Sidebar = L.Control.extend({
             L.DomUtil.removeClass(colLI, 'active');
           }
       }
-
 
     }
 });
